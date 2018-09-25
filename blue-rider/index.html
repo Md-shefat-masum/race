@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Blue Rider</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <section>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="left">
+                        <div class="logo"></div>
+                        <div class="user">
+                            <h5> Player : MD. Shefat</h5>
+                            <div class="img">
+                                <img src="images/user.png" alt="user" class="img-fluid">
+                            </div>
+                            <div class="racing-skills">
+                                <h5>gammin skills : </h5>
+                                <h6>communication: 90%</h6>
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%"></div>
+                                </div>
+
+                                <h6>driving : 99%</h6>
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 99%"></div>
+                                </div>
+
+                                <h6>avg speed: 150 kmh</h6>
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="score_div">
+                            Score: <span id="score">0</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+
+                    <div id="container">
+                        <div id="line_1" class="line"></div>
+                        <div id="line_2" class="line"></div>
+                        <div id="line_3" class="line"></div>
+
+                        <div id="car" class="car main">
+                        </div>
+                        <div id="car_1" class="car car1">
+                        </div>
+                        <div id="car_2" class=" car car2">
+                        </div>
+                        <div id="car_3" class="car car3">
+                        </div>
+
+                        <div id="restart_div">
+                            <div class="alert-box">
+                                <h2>Game over</h2>
+                                <h3> Your Score : <span id="fscore"></span></h3>
+                                <button id="restart">
+                                    press Enter to Restart<br>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="top-player">
+                        <h5>Top Players &amp; Scores</h5>
+                        <ol start="1">
+                            <li>
+                                Md.Yasir : <span>1000</span>
+                            </li>
+                            <li>
+                                Md.Yousuf : <span>9099</span>
+                            </li>
+                            <li>
+                                Md.Zakir : <span>900</span>
+                            </li>
+                            <li>
+                                Mr.Ovi : <span>850</span>
+                            </li>
+                            <li>
+                                Md.Nahiyan : <span>800</span>
+                            </li>
+                            <li>
+                                Md.Alice : <span>750</span>
+                            </li>
+                            <li>
+                                Md.Asraful : <span>700</span>
+                            </li>
+                            <li>
+                                Mr.Bondon : <span>650</span>
+                            </li>
+
+                            <li>
+                                Md.Timu : <span>600</span>
+                            </li>
+                            <li>
+                                Md.Ehsan : <span>559</span>
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="scripts/jquery.min.js"></script>
+    <script src="scripts/bootstrap.min.js"></script>
+    <script src="scripts/script.js"></script>
+</body>
+
+</html>
